@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul Mbariro | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Paul<span>.</span></div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></div>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Hi, I'm <span class="highlight">Paul Mbariro</span></h1>
+      <h2><span id="typewriter"></span></h2>
+      <p>Tech enthusiast & undergraduate IT student exploring Frontend Development & B.Sc(IT) student at CUT, Zimbabwe.</p>
+      <a href="#about" class="btn">About Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <img src="images/profile.png" alt="Paul's photo" class="profile-pic" />
+      <div class="about-text">
+        <p><strong>Name:</strong> Paul W Mbariro</p>
+        <p><strong>Age:</strong> 22</p>
+        <p><strong>Role:</strong> Exploring Frontend Development</p>
+        <p><strong>Languages:</strong> English, Shona</p>
+        <a href="files/PAULL MBARIRO IT.CV (Autosaved).pdf" class="btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+        <div class="skill"><h3>Web Development</h3><div class="progress-bar"><div class="progress" style="width: 85%;">85%</div> </div>
+     </div>
+    <div class="skill"><h3>Database Management:MySQL, SQL, database integration</h3><div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div></div>
+    <div class="skill"><h3>Networking:Installation, server support, troubleshooting</h3><div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div></div>
+    <div class="skill"><h3>Hardware & Computer Systems:Computer Organization, Operating Systems fundamentals</h3><div class="progress-bar"><div class="progress" style="width: 65%;">65%</div></div></div>
+        <div class="skill"><h3>Other:Microsoft Office, Graphic Design, UX/UI, Project Management, Teamwork</h3><div class="progress-bar"><div class="progress" style="width: 65%;">65%</div></div></div>
+      <div class="skill"><h3>Programming:Python, Java,JavaScript HTML, CSS</h3><div class="progress-bar"><div class="progress" style="width: 50%;">50%</div></div></div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="card-container">
+      <div class="card"><i class="fas fa-school"></i><h3>2020 - Chifamba High</h3><p>9 subjects passed including English, Math & Science.</p></div>
+      <div class="card"><i class="fas fa-book-reader"></i><h3>2022 - Kotwa Gvt High</h3><p>3 A-Level passes: Pure Maths, Biology, Crop Science.</p></div>
+      <div class="card"><i class="fas fa-university"></i><h3>2023 - CUT</h3><p>Pursuing B.Sc in Information Technology.</p></div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-gallery">
+      <img src="images/1.jpg" alt="Project 1">
+      <img src="images/2.jpg" alt="Project 2">
+      <img src="images/3.jpg" alt="Project 3">
+      <img src="images/4.jpg" alt="Project 4">
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> mbariropaul9@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +263 7730 74560</p>
+      <p><i class="fas fa-map-marker-alt"></i> CUT, Zimbabwe</p>
+    </div>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Paul Mbariro. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
