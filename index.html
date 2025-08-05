@@ -88,12 +88,13 @@
       <p><i class="fas fa-phone"></i> +263 7730 74560</p>
       <p><i class="fas fa-map-marker-alt"></i> CUT, Zimbabwe</p>
     </div>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
+  <form class="contact-form" action="https://formspree.io/f/xzzgprjv" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
   </section>
 
   <footer class="footer">
